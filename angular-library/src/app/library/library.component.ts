@@ -24,9 +24,4 @@ interface Book {
 export class LibraryComponent {
 
   books: Book[] = booksData;
-  showDetails: boolean[] = new Array(this.books.length).fill(false);
-
-  toggleDetails(index: number): void {
-    this.showDetails[index] = !this.showDetails[index];
-  }
 }

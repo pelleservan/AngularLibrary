@@ -257,13 +257,32 @@ Now we can use the data in front.
 ```
 Thanks to this we can get the following 
 1. Books `http://localhost:4200/library` :
-![./angular-library/src/assets/images/a-Dolls-house.jpg](./angular-library/src/assets/images/a-Dolls-house.jpg)
+
+![./angular-library/src/assets/snip/books.png](./angular-library/src/assets/snip/books.png)
 
 2. Members `http://localhost:4200/members` :
-![./angular-library/src/assets/images/a-Dolls-house.jpg](./angular-library/src/assets/images/a-Dolls-house.jpg)
+
+![./angular-library/src/assets/snip/members.png](./angular-library/src/assets/snip/members.png)
 
 3. Loans `http://localhost:4200/loans` :
-![./angular-library/src/assets/images/a-Dolls-house.jpg](./angular-library/src/assets/images/a-Dolls-house.jpg)
+
+![./angular-library/src/assets/snip/loans.png](./angular-library/src/assets/snip/loans.png)
+
+## More details
+
+To get more details about the different topics we can click on on `Details` button. To link this section to data we defind 
+
+1. Books
+
+![./angular-library/src/assets/snip/books_details.png](./angular-library/src/assets/snip/books_details.png)
+
+2. Members
+
+![./angular-library/src/assets/snip/members_details.png](./angular-library/src/assets/snip/members_details.png)
+
+3. Loans
+
+![./angular-library/src/assets/snip/loans_details.png](./angular-library/src/assets/snip/loans_details.png)
 
 ## Routes
 To get acces to this content we define a `header` for a better navigation and routes in `app.component`
