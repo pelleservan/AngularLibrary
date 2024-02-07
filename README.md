@@ -1,6 +1,8 @@
 # AngularLibrary
 Front-end app for a public library
 
+Visit : `https://angular-library-sigma.vercel.app/`
+
 ## Subject
 
 The project is to develop a front-end app for a public library that displays :
@@ -283,6 +285,13 @@ To get more details about the different topics we can click on on `Details` butt
 3. Loans
 
 ![./angular-library/src/assets/snip/loans_details.png](./angular-library/src/assets/snip/loans_details.png)
+
+## Contact
+
+1. Front-end :
+
+
+2. Back-end :
 
 ## Routes
 To get acces to this content we define a `header` for a better navigation and routes in `app.component`
