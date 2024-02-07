@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<style>
+
+    @font-face {
+      font-family: 'font1';
+      src: url('../../assets/fonts/SourceCodePro-SemiBold.ttf');
+    }
+
+    .card {
+        background-color: rgba(255, 255, 255, 0.75); 
+        backdrop-filter: blur(5px);
+        font-family: 'font1';
+        transition: transform 0.3s; 
+        border-radius: 20px ;
+    }
+
+    img {
+      border-radius: 20px 20px 0 0;
+    }
+
+    .card:hover {
+        transform: scale(1.1); 
+        z-index: 1;
+    }
+
+    details {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    summary {
+        font-size: 20px;
+    }
+
+    span {
+      color: #0091ff;
+    }
+</style>
+
+<body class="">
+
+    <h1><span>&lt;</span>Books<span>/&gt;</span></h1>
+
+    <div class="container">  
+        <div class="row">
+            <ng-container *ngFor="let book of books; let i = index;">
+              <div class="col-md-3 mb-4">
+                <div class="card box-shadow h-100">
+                  <img class="card-img-top" src="{{ book.imageLink }}" alt="{{ book.title }}">
+                  <div class="card-body">
+                    <h5 class="card-title"><span>#</span> {{ book.title }}</h5>
+                    <p class="card-text"><span>##</span> Author: {{ book.author }}</p>
+                  </div>
+                  <details>
+                    <summary>Details</summary>
+                    <p class="card-text"><span>##</span> Country: {{ book.country }}</p>
+                    <p class="card-text"><span>##</span> Year: {{ book.year }}</p>
+                    <p class="card-text"><span>##</span> Language: {{ book.language }}</p>
+                    <p class="card-text"><span>##</span> Pages: {{ book.pages }}</p>
+                    <p class="card-text"><span>##</span> Link: <a href="{{ book.link }}" target="_blank">{{ book.link }}</a></p>
+                  </details>
+                </div>
+              </div>
+              <div *ngIf="(i + 1) % 4 === 0" class="w-100"></div>
+            </ng-container>
+        </div>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

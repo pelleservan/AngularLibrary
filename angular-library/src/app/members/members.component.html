@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Members</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    
+    .table-header {
+        background-color: #0091ff; 
+        backdrop-filter: blur(5px);
+        color: white;
+    }
+
+    .table-row-odd {
+        background-color: rgba(255, 255, 255, 0.75); 
+        backdrop-filter: blur(5px);
+    }
+
+    .table-row-even {
+        background-color: #0091ff6e; 
+        backdrop-filter: blur(5px); 
+    }
+    
+    table.table-bordered {
+        border-color: rgba(255, 255, 255, 0);
+    }
+
+    table.table-bordered th,
+    table.table-bordered td {
+        border-color: rgba(255, 255, 255, 0);
+    }
+    
+    tr:hover {
+        font-weight: bold;
+    }
+
+    span {
+      color: #0091ff;
+    }
+
+  </style>
+</head>
+<body class="">
+
+    <h1 class=""><span>&lt;</span>Members<span>/&gt;</span></h1>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr class="table-header">
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <ng-container *ngFor="let member of members; let i = index">
+                            <tr [ngClass]="i % 2 === 0 ? 'table-row-even' : 'table-row-odd'">
+                                <td>{{ member.name }}</td>
+                                <td>{{ member.email }}</td>
+                                <td>{{ member.phone }}</td>
+                                <td>
+                                    <details>
+                                        <summary>Details</summary>
+                                        <p class="">Address: {{ member.adress }}, {{ member.city }}, {{ member.postal_code }}</p>
+                                    </details>
+                                </td>
+                            </tr>
+                        </ng-container>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

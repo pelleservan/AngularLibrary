@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Jean Dupont",
+    "adress": "123 rue de la Bibliothèque",
+    "city": "Paris",
+    "postal_code": "75001",
+    "email": "jean.dupont@example.com",
+    "phone": "01 23 45 67 89"
+  },
+  {
+    "id": 2,
+    "name": "Marie Martin",
+    "adress": "456 avenue des Champs-Élysées",
+    "city": "Paris",
+    "postal_code": "75008",
+    "email": "marie.martin@example.com",
+    "phone": "01 34 56 78 90"
+  },
+  {
+    "id": 3,
+    "name": "Pierre Durand",
+    "adress": "789 boulevard Haussmann",
+    "city": "Paris",
+    "postal_code": "75009",
+    "email": "pierre.durand@example.com",
+    "phone": "01 45 67 89 01"
+  },
+  {
+    "id": 4,
+    "name": "Sophie Leroy",
+    "adress": "321 rue du Faubourg Saint-Antoine",
+    "city": "Paris",
+    "postal_code": "75011",
+    "email": "sophie.leroy@example.com",
+    "phone": "01 56 78 90 12"
+  },
+  {
+    "id": 5,
+    "name": "Antoine Lefebvre",
+    "adress": "234 rue Saint-Honoré",
+    "city": "Paris",
+    "postal_code": "75001",
+    "email": "antoine.lefebvre@example.com",
+    "phone": "01 67 89 01 23"
+  },
+  {
+    "id": 6,
+    "name": "Emilie Garcia",
+    "adress": "567 avenue de la République",
+    "city": "Paris",
+    "postal_code": "75011",
+    "email": "emilie.garcia@example.com",
+    "phone": "01 78 90 12 34"
+  },
+  {
+    "id": 7,
+    "name": "Lucas Moreau",
+    "adress": "890 boulevard Montparnasse",
+    "city": "Paris",
+    "postal_code": "75014",
+    "email": "lucas.moreau@example.com",
+    "phone": "01 89 01 23 45"
+  },
+  {
+    "id": 8,
+    "name": "Manon Dubois",
+    "adress": "987 avenue de la Liberté",
+    "city": "Paris",
+    "postal_code": "75016",
+    "email": "manon.dubois@example.com",
+    "phone": "01 90 12 34 56"
+  },
+  {
+    "id": 9,
+    "name": "Thomas Rousseau",
+    "adress": "543 rue du Temple",
+    "city": "Paris",
+    "postal_code": "75004",
+    "email": "thomas.rousseau@example.com",
+    "phone": "01 01 23 45 67"
+  },
+  {
+    "id": 10,
+    "name": "Camille Laurent",
+    "adress": "876 avenue des Gobelins",
+    "city": "Paris",
+    "postal_code": "75013",
+    "email": "camille.laurent@example.com",
+    "phone": "01 12 34 56 78"
+  },
+  {
+    "id": 11,
+    "name": "Nicolas Michel",
+    "adress": "123 rue de Rivoli",
+    "city": "Paris",
+    "postal_code": "75001",
+    "email": "nicolas.michel@example.com",
+    "phone": "01 23 45 67 89"
+  },
+  {
+    "id": 12,
+    "name": "Caroline Petit",
+    "adress": "456 rue de la Roquette",
+    "city": "Paris",
+    "postal_code": "75011",
+    "email": "caroline.petit@example.com",
+    "phone": "01 34 56 78 90"
+  },
+  {
+    "id": 13,
+    "name": "Julien Dubois",
+    "adress": "789 avenue des Ternes",
+    "city": "Paris",
+    "postal_code": "75017",
+    "email": "julien.dubois@example.com",
+    "phone": "01 45 67 89 01"
+  },
+  {
+    "id": 14,
+    "name": "Emma Lefevre",
+    "adress": "321 boulevard Saint-Germain",
+    "city": "Paris",
+    "postal_code": "75006",
+    "email": "emma.lefevre@example.com",
+    "phone": "01 56 78 90 12"
+  },
+  {
+    "id": 15,
+    "name": "Hugo Martin",
+    "adress": "234 avenue de la Bastille",
+    "city": "Paris",
+    "postal_code": "75012",
+    "email": "hugo.martin@example.com",
+    "phone": "01 67 89 01 23"
+  },
+  {
+    "id": 16,
+    "name": "Louise Dupuis",
+    "adress": "567 rue du Faubourg Saint-Antoine",
+    "city": "Paris",
+    "postal_code": "75011",
+    "email": "louise.dupuis@example.com",
+    "phone": "01 78 90 12 34"
+  },
+  {
+    "id": 17,
+    "name": "Maxime Lemoine",
+    "adress": "890 boulevard des Capucines",
+    "city": "Paris",
+    "postal_code": "75009",
+    "email": "maxime.lemoine@example.com",
+    "phone": "01 89 01 23 45"
+  },
+  {
+    "id": 18,
+    "name": "Chloé Mercier",
+    "adress": "987 avenue de la Grande Armée",
+    "city": "Paris",
+    "postal_code": "75017",
+    "email": "chloe.mercier@example.com",
+    "phone": "01 90 12 34 56"
+  },
+  {
+    "id": 19,
+    "name": "Arthur Leroux",
+    "adress": "543 rue des Martyrs",
+    "city": "Paris",
+    "postal_code": "75009",
+    "email": "arthur.leroux@example.com",
+    "phone": "01 01 23 45 67"
+  },
+  {
+    "id": 20,
+    "name": "Léa Robert",
+    "adress": "876 avenue du Maine",
+    "city": "Paris",
+    "postal_code": "75014",
+    "email": "lea.robert@example.com",
+    "phone": "01 12 34 56 78"
+  }
+]
