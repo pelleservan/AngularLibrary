@@ -1,7 +1,12 @@
 # AngularLibrary
 Front-end app for a public library
 
-Visit : `https://angular-library-sigma.vercel.app/`
+Visit : https://angular-library-sigma.vercel.app/
+
+<iframe
+  src="https://angular-library-sigma.vercel.app/"
+  style="width:100%; height:300px;"
+></iframe>
 
 ## Subject
 
