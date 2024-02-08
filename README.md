@@ -6,8 +6,8 @@ Visit : https://angular-library-sigma.vercel.app/
 
 ## Content
 <!-- vscode-markdown-toc -->
-* 1. [ Subject](#1-subject)
-* 2. [ Modalities](#2-modalities)
+* 1. [Subject](#1-subject)
+* 2. [Modalities](#2-modalities)
 	* 2.1. [Technicalstack](#21-technicalstack)
 	* 2.2. [Deliverables](#22-deliverables)
 * 3. [GetProject](#3-getproject)
